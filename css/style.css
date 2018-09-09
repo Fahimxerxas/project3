@@ -1,0 +1,306 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: white;
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.top{
+	width: 100%;
+	background-color: white;
+	float: left;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.logo img{
+	margin: 18px 90px;
+}
+.banner{
+	width: 100%;
+	float: left;
+	margin: 0 auto;
+	background:url(../img/banner.png);
+	background-size: cover;
+}
+.text{
+	text-align: center;
+	margin: 200px;
+}
+.text h1{
+	font-size:60px;
+}
+.text p{
+	margin:50px;
+}
+.text button{
+	color: white;
+	background:none;
+	border:1px solid cyan;
+	padding: 15px 30px;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+	
+}
+.text button:hover {
+	background-color:#00A2F5;
+	cursor:pointer;
+	border:1px solid #00A2F5;
+
+	
+}
+
+.angle{
+	float: left;
+	width: 100%;
+	margin: 102px auto;
+	font-size: 30px;
+}
+.line{
+	background-color:#00A2F5;
+	width: 535px;
+	height: 2px;
+	margin: 15px 115px;
+}
+.simple-pure-text{
+	width: 100%;
+	float: left;
+	margin:70px auto;
+}
+.simple-pure-text h1{
+	color: black;
+	text-align: center;
+	font-size: 40px;
+}
+.simple-pure-text p{
+	color: black;
+	text-align: center;
+	margin: 30px auto;
+	font-weight: 300;
+}
+.simple-pure-img{
+	width: 100%;
+	float: left;
+	color: black;
+}
+.mobile-img{
+	width: 33.3333%;
+	float: left;
+	text-align: center;
+}
+.plane-img{
+	width: 33.3333%;
+	float: left;
+	text-align: center;
+}
+.mic-img{
+	width: 33.3333%;
+	float: left;
+	text-align: center;
+}
+ .mobile-img img{
+	display: block;
+	margin: 0 auto;
+}
+.plane-img img{
+	display: block;
+	margin: 0 auto;
+}
+.mic-img img{
+	display: block;
+	margin: 0 auto;
+}
+.mobile-img h4{
+	margin-top: 23px;
+	margin-bottom: 13px;
+}
+.plane-img h4{
+	margin-top: 23px;
+	margin-bottom: 13px;
+}
+.mic-img h4{
+	margin-top: 23px;
+	margin-bottom: 13px;
+}
+.mobile-img p{
+	width: 248px;
+	text-align: center;
+	margin: 0px 60px;
+	font-weight: 300;
+}
+.plane-img p{
+	width: 260px;
+	text-align: center;
+	margin: 0px 60px;
+	font-weight: 300;
+}
+.mic-img p{
+	width: 260px;
+	text-align: center;
+	margin: 0px 60px;
+	font-weight: 300;
+}
+.feature{
+	width: 100%;
+	float: left;
+	color: black;
+}
+.showcase-text{
+	text-align: center;
+	margin-top: 90px;
+}
+.showcase-text p{
+	margin-top: 10px;
+	margin-bottom: 70px;
+	font-weight: 300;
+}
+.image-section-one{
+	width: 100%;
+	float:left;
+}
+.image-one{
+	width: 33.3333%;
+	float: left;
+}
+.image-two{
+	width: 33.3333%;
+	float: left;
+}
+.image-three{
+	width: 33.3333%;
+	float: left;
+}
+.image-section-two{
+	width: 100%;
+	float:left;
+	margin-top: 10px;
+}
+.image-three{
+	width: 33.3333%;
+	float: left;
+}
+.image-four{
+	width: 33.3333%;
+	float: left;
+}
+.image-five{
+	width: 33.3333%;
+	float: left;
+}
+.portfolio{
+	width: 100%;
+	float: left;
+	background: url(../img/portfolio.png);
+	margin-top: 80px;
+	height: 600px;
+
+}
+.stay-with-us{
+	color: white;
+	text-align: center;
+	margin-top: 60px;
+}
+.stay-with-us h3{
+	font-size: 40px;
+}
+.stay-with-us p{
+	margin-top: 15px;
+	color: gray;
+}
+.info{
+	margin-top: 40px;
+}
+.name-box{
+	
+	background-color: rgba(0 , 0 , 0 , 0.5);
+	border:1px solid gray;
+	margin-left: 400px;
+	width: 380px;
+	height:50px;
+	padding: 5px 0px; 
+	margin-bottom: 15px;
+
+}
+.email-box{
+	
+	background-color: rgba(0 , 0 , 0 , 0.5);
+	border:1px solid gray;
+	margin-left: 400px;
+	width: 380px;
+	height:50px;
+	padding: 5px 0px; 
+	margin-bottom: 15px;
+
+}
+.msg-box{
+	text-align:0px;
+	background-color: rgba(0 , 0 , 0 , 0.5);
+	border:1px solid gray;
+	margin-left: 400px;
+	width: 380px;
+	height:130px;
+
+}
+.btn{
+	float: left;
+	background-color: rgba(0 , 0 , 0 , 0.5);
+	display: block;
+	margin: -18px 699px;
+	width: 85px;
+	height: 35px;
+	color: white;
+	border:1px solid #00A2F5;
+
+}
+.btn:hover{
+	cursor: pointer;
+	background-color: #00A2F5;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+}
+.checkbox{
+
+    margin-left: 400px ;
+    margin-top: 20px;
+}
+.footer{
+	width: 100%;
+	float: left;
+	background-color: white;
+}
+.footer-text p {
+	width: 70%;
+	float: left;
+	color: gray;
+	margin-top:30px;
+}
+.social-icon{
+	width: 30%;
+	float: right;
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+.social-icon ul li{
+	list-style: none;
+	display: inline;
+	color:white;
+	font-size: 20px;
+	margin: 2px;
+	}
+.fa{
+		width: 25px;
+		height: 25px;
+		padding: 5px;
+		text-align: center;
+		background-color: #00A2F5;
+		color: white;
+		border-radius: 5px;
+
+	}
